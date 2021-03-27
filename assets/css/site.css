@@ -1,0 +1,58 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(54,57,63,255);
+    color: white;
+}
+
+p {
+    font-size: 15pt;
+}
+
+.button {
+    border-radius: 3%;
+    background-color: rgba(52,152,219);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 15%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    min-width: 100px;
+}
+
+.button :hover {
+    background-color: rgba(52, 152, 219, 0.5);
+}
+
+.button :active {
+    background-color: rgba(52, 152, 219, 0.7);
+}
+
+button :link {
+    text-decoration: none;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 5%;
+    width: 5%;
+    box-shadow: 0 0 10px white;
+    min-width: 27px;
+}
+
+.demoImage {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
